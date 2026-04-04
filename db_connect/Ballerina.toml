@@ -1,0 +1,14 @@
+[package]
+org = "bhashi"
+name = "db_connect"
+version = "0.1.0"
+distribution = "2201.13.1"
+title = "db-connect"
+
+[build-options]
+sticky = true
+
+[[platform.java21.dependency]]
+groupId = "com.mysql"
+artifactId = "mysql-connector-j"
+version = "8.4.0"
