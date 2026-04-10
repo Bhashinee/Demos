@@ -1,7 +1,7 @@
 import ballerina/io;
 import ballerinax/openweathermap;
 
-configurable string appId = "c8697ceb5a7c46aa4b6b6d88ce5bd8c4";
+configurable string appId = ?;
 
 final openweathermap:Client weatherClient = check new ({appid: appId});
 
